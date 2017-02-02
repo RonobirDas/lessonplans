@@ -8,6 +8,9 @@ Disclaimer:
 For the entirety of the prelab refer (THAT DOESN'T MEAN READ THE ENTIRE THING) to the [Atmel Documentation Homepage](http://www.atmel.com/webdoc/index.html), [Atmega Datasheet](http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf) and the [AVR ISA Manual](http://www.atmel.com/images/Atmel-0856-AVR-Instruction-Set-Manual.pdf) and chapter 2 of 	Programming and interfacing Atmel AVR microcontrollers by Thomas Grace which is freely available through UNLV's Lied Library [Direct Link which might not work](http://webpac.library.unlv.edu/search~S1/?searchtype=.&searcharg=b5268249). Additionally for a better details that were discussed in CpE 300 please refer to Digital Design and Computer Architecture, 1st Edition, available through the UNLV Library. Finally you may find it useful to refer to [The AVR Beginners Site](http://www.avrbeginners.net/). The sections below are what we are covering theoretically, so you can look them over and match to the above documents appropriately.
 
 As such you have TWO options to learn from if provided. This only applies to Part 2 and Part 4 
+-----------------------
+Complaints: 
+WHY ARE WE READING SO MUCH??? This is all review for you guys, none of this is new material theoretically. As such this isn't a challenge. You've either covered it in class, in lab previously or in CpE 300/EE320/CS218/CS135. This is just a formalization of concepts you know applied to a particular ISA. 
 
 ### Part 1, Software Developer Point of View (Links): 
 Read through the following pages: [AVR Memory Map](http://www.avr-tutorials.com/general/avr-memory-map), [AVR Program Counter](http://www.avr-tutorials.com/general/avr-program-counter), [AVR](http://www.avr-tutorials.com/general/avr-microcontroller-stack-operation-and-stack-pointer)
@@ -67,6 +70,11 @@ Alternative links on Atmega328p Breadboarding,
 [SIMAVR for Linuxl](http://www.instructables.com/id/Debugging-AVR-code-in-Linux-with-simavr/?ALLSTEPS)
 
 ---------------------
+
+### Part 9, Design and Development Cycle:
+You should already have an idea about this from the very first lab lecture, but this is the process fully formalized. 
+[The Embedded Systems Design and Development Process](http://users.ece.utexas.edu/~valvano/Volume1/E-Book/C7_DesignDevelopment.htm)
+--------------------------
 
 The following is not necessary for this lab but Dr. Harris would like you to understand how to Solder. If there are any questions we can go over it lab next week when we actually work with boards. 
 
