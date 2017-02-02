@@ -1,4 +1,4 @@
-# Prelab 2 Information 
+# Prelab 2 Reference Information 
 ----------
 
 Disclaimer: 
@@ -7,7 +7,8 @@ Disclaimer:
 
 For the entirety of the prelab refer (THAT DOESN'T MEAN READ THE ENTIRE THING) to the [Atmel Documentation Homepage](http://www.atmel.com/webdoc/index.html), [Atmega Datasheet](http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf) and the [AVR ISA Manual](http://www.atmel.com/images/Atmel-0856-AVR-Instruction-Set-Manual.pdf) and chapter 2 of 	Programming and interfacing Atmel AVR microcontrollers by Thomas Grace which is freely available through UNLV's Lied Library [Direct Link which might not work](http://webpac.library.unlv.edu/search~S1/?searchtype=.&searcharg=b5268249). Additionally for a better details that were discussed in CpE 300 please refer to Digital Design and Computer Architecture, 1st Edition, available through the UNLV Library. Finally you may find it useful to refer to [The AVR Beginners Site](http://www.avrbeginners.net/). The sections below are what we are covering theoretically, so you can look them over and match to the above documents appropriately.
 
-As such you have TWO options to learn from if provided. This only applies to Part 2 and Part 4 
+As such you have TWO options to learn from if provided. This only applies to Part 2, Part 4 and Part 5.  
+
 -----------------------
 Complaints: 
 WHY ARE WE READING SO MUCH??? This is all review for you guys, none of this is new material theoretically. As such this isn't a challenge. You've either covered it in class, in lab previously or in CpE 300/EE320/CS218/CS135. This is just a formalization of concepts you know applied to a particular ISA. 
@@ -23,12 +24,21 @@ B) Links below
 Avrbeginngers section on the ALU
 [AVR SPECIAL FEATURE, HARDWARE MULTIPLIER!](http://www.atmel.com/images/Atmel-1631-Using-the-AVR-Hardware-Multiplier_ApplicationNote_AVR201.pdf)
 
+------------------------
+
 ### Part 3, AVR Assembly [LINKS]: 
-Refer to the ISA Manual Listed Above and [Atmel AVR Documentation on the AVR Assembler](http://www.atmel.com/webdoc/avrassembler/index.html) as well as AVR Beginners on AVR Assembler
+Refer to the ISA Manual Listed Above and [Atmel AVR Documentation on the AVR Assembler](http://www.atmel.com/webdoc/avrassembler/index.html), [AVR Assembler Details](https://www.codeproject.com/Articles/712610/AVR-Assembler) as well as AVR Beginners on AVR Assembler
+
+---------------
+
+### Part 4, What is a Toolchain: 
+Either A) [Atmel Application Note](http://www.atmel.com/Images/avr8-gnu-toolchain-3.5.4.1709-readme.pdf)
+or
+B) [AVR GCC OVERVIEW](http://www.nongnu.org/avr-libc/user-manual/overview.html) & [Assembler Details + Example](http://www.nongnu.org/avr-libc/user-manual/assembler.html)
 
 --------------
 
-### Part 4, AVR Memory [Either Datasheet or Links]: 
+### Part 5, AVR Memory [Either Datasheet or Links]: 
 A) Atmega 328p Datasheet Section 12 (page 34)
 B)
 Read through the following sections: [AVR Architecture Information](http://www.avrbeginners.net/). Under the AVR Architecture Heading, look at the sections SRAM, Flash and EEPROM Memory.
@@ -36,7 +46,7 @@ Read through the following sections: [AVR Architecture Information](http://www.a
 
 ----------------
 
-### Part 5, Programming the AVR [Entire Contents]: 
+### Part 6, Programming the AVR [Entire Contents]: 
 From page 360 to 365 in the Atmega328p Datasheet 
 [General AVR Programming Overview](http://www.ladyada.net/learn/avr/programming.html)
 [Atmel Application Note](http://www.atmel.com/Images/Atmel-0943-In-System-Programming_ApplicationNote_AVR910.pdf)
@@ -45,7 +55,7 @@ From page 360 to 365 in the Atmega328p Datasheet
 
 ----------------------
 
-### Part 6, Breadboarding the Atmega [Entire Contents]: 
+### Part 7, Breadboarding the Atmega [Entire Contents]: 
 ##### Required: 
 Download/Bookmark this image for reference: [Atmega328p Pinout](https://www.arduino.cc/en/Hacking/PinMapping168)
 
@@ -60,18 +70,18 @@ Alternative links on Atmega328p Breadboarding,
 
 ----------------
 
-### Part 7, Debugging the AVR [Entire Contents]: 
+### Part 8, Debugging the AVR [Entire Contents]: 
 [Debugging Best Practices](http://www.best-microcontroller-projects.com/article-debugging.html)
 
 ---------------
 
-### Part 8, Simulating the AVR [Entire Contents]: 
+### Part 9, Simulating the AVR [Entire Contents]: 
 [For Atmel Studio](http://www.atmel.com/webdoc/simulator/simulator.wb_Simulator_Use.html)
 [SIMAVR for Linuxl](http://www.instructables.com/id/Debugging-AVR-code-in-Linux-with-simavr/?ALLSTEPS)
 
 ---------------------
 
-### Part 9, Design and Development Cycle:
+### Part 10, Design and Development Cycle:
 You should already have an idea about this from the very first lab lecture, but this is the process fully formalized. 
 [The Embedded Systems Design and Development Process](http://users.ece.utexas.edu/~valvano/Volume1/E-Book/C7_DesignDevelopment.htm)
 --------------------------
