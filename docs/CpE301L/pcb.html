@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PCB Design for Luddites</title>
+<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+    <div class="container"><h1 id="pcb-design-for-luddites">PCB Design for Luddites</h1>
+
+<p>Hey EE 497. Today we’ll learn essential skills in how to use a search engine. We might even learn a thing or two about PCB design while we’re at it. </p>
+
+<p><strong>DISCLAIMER</strong></p>
+
+<blockquote>
+  <p>Any views or opinions presented in this website are solely those of the author and do not necessarily represent those of the University of Nevada, Las Vegas and its employees, Brandon Blackstone, or the various institutions listed here.  I gain nothing from your use of this site. So now I can say that your mileage may vary, I hold no responsibility or guarantee anything on this site or this site itself helping you in your courses or in life. Use this at your own risk. </p>
+</blockquote>
+
+<p>Table of Contents</p>
+
+<p><div class="toc">
+<ul>
+<li><a href="#pcb-design-for-luddites">PCB Design for Luddites</a><ul>
+<li><a href="#i-want-pcb-software-and-i-want-it-now">I want PCB software and I WANT IT NOW</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#yeah-thats-the-one-thank-you-so-much-for-finding-it-for-me">YEAH THAT’S THE ONE, THANK YOU SO MUCH FOR FINDING IT FOR ME!</a></li>
+<li><a href="#whats-that-coupling-thing-talked-about-in-class">What’s that coupling thing talked about in class?</a></li>
+<li><a href="#im-never-going-to-use-this-in-real-life-im-gonna-be-an-ic-designer">I’m never going to use this in real life, I’m gonna be an IC Designer!</a></li>
+<li><a href="#you-are-absolutely-right-no-ic-designer-will-ever-need-this-ill-never-see-em-theory-again">YOU ARE ABSOLUTELY RIGHT! NO IC DESIGNER WILL EVER NEED THIS! I’ll NEVER SEE EM THEORY AGAIN!</a></li>
+<li><a href="#but-this-is-all-optional-right-like-real-life-wont-ever-need-this-stuff">But this is all optional right? Like, real life won’t ever need this stuff!</a></li>
+<li><a href="#websites">Websites</a></li>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#what-if-i-dont-want-to-do-any-of-this">What if I don’t want to do any of this</a></li>
+<li><a href="#do-you-have-anything-on-datasheets">Do you have anything on datasheets?</a></li>
+    <li><a href="#manufacturing">PCB Manufacturing</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</p>
+
+<h2 id="i-want-pcb-software-and-i-want-it-now">I want PCB software and I WANT IT NOW</h2>
+
+<p>Preferably free.  <br>
+Well you’re in luck. If you type in PCB, you’ll probably see something like this:  <br>
+<img src="http://i.imgur.com/w02QdT8.png" alt="Learning to Google" title=""> <br>
+<img src="http://i.imgur.com/LnGfFe2.png" alt="Imgur" title=""></p>
+
+<p>Your mileage may vary. Have fun reading through the many many comparison articles there is. </p>
+
+<blockquote>
+  <p><em>“Ok, fine, give me something free and ‘good’ “</em></p>
+</blockquote>
+
+<p><a href="https://cadsoft.io/buy/educational/1/USD" title="Here ya go">Here ya go, this is the Eagle PCB software mentioned in class and it’s free with your .edu email account</a></p>
+
+<p>And if you do “purchase” that with your .edu account, you should probably follow up with <a href="https://cadsoft.io/blog/eagle-tuesdays-electronic-load-part-1-september-20-2016-2pm-edt/">This Free webinar </a></p>
+
+<p>Why Eagle? Well they’re giving you their almost $600 perpetual license software for free. Now you might argue the merits of kicad or free pcb, but Eagle Professional almost definitely be better than them.  <br>
+What about Diptrace, the other cheaper professional software? Well it ain’t free! You have to investigate these things yourselves. But UNLV has a history with Eagle, so you’ll probably have more support from your fellow classmates, faculty members, graduate students etc. </p>
+
+<blockquote>
+  <p><em>What do other schools use?</em></p>
+</blockquote>
+
+<p><a href="https://sites.google.com/site/ndsuece/">Here’s an example</a> They even include a site to do DFM analysis for FREE. YAY FREE STUFF. </p>
+
+<p><a href="https://upverter.com/pricing/">Here’s an alternative that’s pretty modern and new, it’s making some waves in the PCB community</a></p>
+
+<blockquote>
+  <p>That’s great, now how do I make a PCB? </p>
+</blockquote>
+
+<h2 id="books">Books</h2>
+
+<p>That’s the million dollar question.  <br>
+You’re probably looking for something like this: <br>
+<img src="http://i.imgur.com/xCIXLBt.png" alt="YA THIS ONE" title=""></p>
+
+
+
+<h2 id="yeah-thats-the-one-thank-you-so-much-for-finding-it-for-me">YEAH THAT’S THE ONE, THANK YOU SO MUCH FOR FINDING IT FOR ME!</h2>
+
+<p><img src="http://i.imgur.com/Z7tYrqI.png" alt="This guy is judging you, hardI" title=""></p>
+
+<p><strong>Sadly</strong>, no such thing exists. Instead you’re probably going to be checking out amazon. </p>
+
+<p><img src="http://i.imgur.com/cOleDmi.png" alt="Imgur" title=""></p>
+
+<h2 id="whats-that-coupling-thing-talked-about-in-class">What’s that coupling thing talked about in class?</h2>
+
+<p>If I was to give recommendations, I’d say you have to look into EMC or EMI books (Electromagnetic Compatibility/Electromagnetic Interference). You know, if you were looking for more real world applications of why we learn EE 330. Or if you were wondering what this coupling thing is that’s talked about in class. </p>
+
+<blockquote>
+  <p><em>‘Electro what now?’</em>  <br>
+  <a href="https://en.wikipedia.org/wiki/Electromagnetic_compatibility">Wikipedia</a> <br>
+  <a href="http://electronics.stackexchange.com/questions/123253/parasitic-capacitance-and-ac-coupling">AC and Parasitic Coupling</a> <br>
+  <a href="http://www.irf.com/product-info/igbt/pcb-layoutguidelines.pdf">IRF page on coupling</a></p>
+</blockquote>
+
+<p>The power of google will lead the way</p>
+
+
+
+<h2 id="im-never-going-to-use-this-in-real-life-im-gonna-be-an-ic-designer">I’m never going to use this in real life, I’m gonna be an IC Designer!</h2>
+
+<hr>
+
+
+
+<h2 id="you-are-absolutely-right-no-ic-designer-will-ever-need-this-ill-never-see-em-theory-again"><a href="http://www.edn.com/design/analog/4426479/Decreasing-parasitic-capacitance-in-IC-layouts">YOU</a> <a href="https://www.conted.ox.ac.uk/courses/professional/files/why_johnny_cant_design_howard_johnston.pdf">ARE</a> <a href="http://www.ti.com/lit/an/sboa094/sboa094.pdf">ABSOLUTELY RIGHT!</a> <a href="http://www.ece.ucsb.edu/bears/class/ece124d/">NO IC DESIGNER WILL EVER NEED</a> <a href="http://www.ece.ucsb.edu/Faculty/rodwell/Classes/mixed_signal/mixed_signal.htm">THIS!</a> <a href="http://www.hotchips.org/wp-content/uploads/hc_archives/hc25/HC25.0T2-Storage-epub/HC25.25.220-NAND-Technology-Parat-Intel.pdf">I’ll NEVER SEE EM THEORY</a> <a href="http://www.intel.com/content/dam/www/public/us/en/documents/packaging-databooks/packaging-chapter-04-databook.pdf">AGAIN!</a></h2>
+
+<p>That’s 7 separate links above </p>
+
+<p><img src="http://i.imgur.com/pIMzr00.png" alt="Hotchips" title=""></p>
+
+<hr>
+
+
+
+<h2 id="but-this-is-all-optional-right-like-real-life-wont-ever-need-this-stuff">But this is all optional right? Like, real life won’t ever need this stuff!</h2>
+
+<p>Well outside of the strong possibility of your devices not working we have a little thing called laws to deal with.</p>
+
+<p><img src="http://i.imgur.com/h9IqehQ.png" alt="Imgur" title=""></p>
+
+<p><a href="http://www.iec.ch/emc/">IEC Page on EMC</a></p>
+
+<p>Darn those pesky regulators! That’s from the wiki page on EMC. </p>
+
+<p><img src="http://i.imgur.com/hvwxWrA.png" alt="Imgur" title=""> <br>
+<img src="http://i.imgur.com/C5XSlJ3.png" alt="Imgur" title=""></p>
+
+<blockquote>
+  <p><em>Cool so what books should I look into</em></p>
+</blockquote>
+
+<p><a href="https://www.amazon.com/Real-World-Springer-International-Engineering-Computer/dp/1402071302/ref=sr_1_3?ie=UTF8&amp;qid=1476157568&amp;sr=8-3&amp;keywords=pcb%20design">PCB Book 1</a> <br>
+<a href="https://www.amazon.com/Emc-Printed-Circuit-Board-Design/dp/078034703X/ref=sr_1_6?ie=UTF8&amp;qid=1476157568&amp;sr=8-6&amp;keywords=pcb%20design">PCB Book 2</a> <br>
+<a href="https://www.amazon.com/Electromagnetic-Compatibility-Engineering-Henry-Ott/dp/0470189304/ref=sr_1_15?ie=UTF8&amp;qid=1476157568&amp;sr=8-15&amp;keywords=pcb%20design">PCB Book 3</a></p>
+
+<blockquote>
+  <p>But I don’t want to spend money, does UNLV provide anything? Is it free? Is it possibly online? </p>
+</blockquote>
+
+<p>Well lucky you, UNLV does. Kinda. </p>
+
+<ol>
+<li>First go to www.google.com</li>
+<li>Type in UNLV Lied Library</li>
+<li>Click on the lied library link: <a href="https://www.library.unlv.edu/">https://www.library.unlv.edu/</a></li>
+<li>Open a tab with the databases link. You should have 2 tabs now with the lied library page</li>
+<li>In the first page, use the browser to type in pcb design</li>
+<li>In the second page which has our entire database access, find SpringerLink and click on that</li>
+<li>In the SpringerLink page, search pcb design</li>
+</ol>
+
+<p>Here are the steps visualized:  <br>
+<img src="http://i.imgur.com/PThXU32.png" alt="Imgur" title=""> <br>
+<img src="http://i.imgur.com/HZ7Jq3a.png" alt="Imgur" title=""> <br>
+<img src="http://i.imgur.com/0hGavYV.png" alt="Imgur" title=""> <br>
+<img src="http://i.imgur.com/3CGOsOu.png" alt="Imgur" title=""> <br>
+<img src="http://i.imgur.com/QMJuKyj.png" alt="Imgur" title=""> <br>
+<img src="http://i.imgur.com/Z7mpyEN.png" alt="Imgur" title=""> <br>
+<img src="http://i.imgur.com/tDNx459.png" alt="Imgur" title=""></p>
+
+<p>SpringerLink has a lot of textbooks. Not all of them are helpful. But they exist <br>
+<img src="http://i.imgur.com/GmF34Rl.png" alt="Imgur" title=""></p>
+
+<blockquote>
+  <p>Eww Textbooks are gross. Can you give me a website? </p>
+</blockquote>
+
+<h2 id="websites">Websites</h2>
+
+<p>Sure……</p>
+
+<p>Welcome to EGG 102 aka Learning how to google. What they didn’t teach you in class edition. </p>
+
+<p>You see the magical words you are looking for in terms of search query is “(Electronics Manufacturer)” + “pcb” + “Application Note” or “Design Note” and optionally “design” or “layout”. </p>
+
+<p>What, don’t believe me? Really now….. <br>
+<img src="http://i.imgur.com/EPdMzpi.png" alt="Imgur" title=""></p>
+
+<p>And more relevant examples:</p>
+
+<p><img src="http://i.imgur.com/w9615O2.png" alt="Imgur" title=""></p>
+
+<p><img src="http://i.imgur.com/Wuc9m1k.png" alt="Imgur" title=""></p>
+
+<p><img src="http://i.imgur.com/5xOAFRC.png" alt="Imgur" title=""></p>
+
+<p><img src="http://i.imgur.com/Iwl5NCV.png" alt="Imgur" title=""></p>
+
+<p><img src="http://i.imgur.com/19EtubN.png" alt="Imgur" title=""></p>
+
+<p><img src="http://i.imgur.com/P5WnUd9.png" alt="Imgur" title=""></p>
+
+<p><img src="http://i.imgur.com/Lr37Ibu.png" alt="Imgur" title=""></p>
+
+<p><img src="http://i.imgur.com/DGHHho8.png" alt="Imgur" title=""></p>
+
+<blockquote>
+  <p><em>“That’s great and all, but I don’t feel like googling that much”</em></p>
+</blockquote>
+
+<p>I understand. Looking, typing and clicking can be a real challenge sometimes. Here are some of the top links aggregated together for your viewing pleasure:  <br>
+<a href="http://electronicdesign.com/embedded/engineer-s-guide-high-quality-pcb-design">Electronic Design Guide to High Quality PCB Design</a> <br>
+<a href="http://e2e.ti.com/blogs_/b/powerhouse/archive/2014/04/01/flybuck-pcb-layout-tips?HQS=sva-null-null-pentonever-asset-e2e-null-wwe&amp;DCM=yes">TI Design Note, though this is more for our project</a>  <br>
+<a href="http://www.embedded.com/design/prototyping-and-development/4427230/The-basics-of-printed-circuit-board-design">Embedded Design note on PCB design basics</a> <br>
+<a href="http://www.ti.com/lit/an/szza009/szza009.pdf">TI Design note on reducing EMI for pcb designs</a> <br>
+<a href="http://learnemc.com/pcb-layout">Intro to learning EMC for pcb layout</a> <br>
+<a href="https://www.maximintegrated.com/en/app-notes/index.mvp/id/5100">Mixed Signal PCB design</a> <br>
+<a href="http://www.analog.com/library/analogDialogue/archives/43-09/EDch%2012%20pc%20issues.pdf">Design Issues for PCB design, app note for Analog Devices</a> <br>
+<a href="http://www.designworldonline.com/problems-arise-pcb-design/">Article on PCB design issues</a> <br>
+<a href="http://www.pcbcart.com/resources/pcb-design-issues.html">PCB resource page</a> <br>
+<a href="https://www.quora.com/What-are-the-common-problems-that-cause-a-PCB-printed-circuit-board-to-fail-despite-having-the-correct-circuit-schematic-design">Forum Post asking about PCB design</a> <br>
+<a href="http://web.cecs.pdx.edu/~greenwd/PCB_SI.pdf">High speed PCB design</a></p>
+
+<h2 id="videos">Videos</h2>
+
+<blockquote>
+  <p>“What if I don’t want to read”</p>
+</blockquote>
+
+<p><a href="https://www.youtube.com/watch?v=g7b5YZENvjY">Video on product design</a> <br>
+<a href="https://www.youtube.com/watch?v=2b1UdOmxVrw">PCB design video</a> <br>
+<a href="https://www.youtube.com/watch?v=VXE_dh38HjU">Another one</a></p>
+
+
+
+<h2 id="what-if-i-dont-want-to-do-any-of-this">What if I don’t want to do any of this</h2>
+
+<p>How did you get this far into the degree? Did you think there was a Chegg or Yahoo answers page to do your entire project? </p>
+
+<p><a href="https://answers.yahoo.com/question/index?qid=20161008074926AA53Mpm">IN FACT, THERE IS ONE</a></p>
+
+<h2 id="do-you-have-anything-on-datasheets">Do you have anything on datasheets?</h2>
+
+<p>Sure I do! <br>
+<a href="http://www.edn.com/design/power-management/4394484/How-to-read-a-data-sheet">EDN Article on how to read a datasheet</a> <br>
+<a href="http://electronics.stackexchange.com/questions/66643/how-to-read-and-understand-a-data-sheet">Forum Post Asking this exact question</a> <br>
+<a href="https://www.sparkfun.com/tutorials/223">Easy fun to read Sparkfun Article on Datasheet reading</a></p>
+
+<blockquote>
+  <p><em>‘Man, those are awesome, how’d you find them?’</em></p>
+</blockquote>
+
+<p><img src="https://i.imgsafe.org/d328538f92.png" alt="Level 99 Wizardry" title=""></p>
+    
+    <h2 id="manufacturing">What about the PCB Manufacturing Process</h2>
+
+    <a href="http://www.eurocircuits.com/making-a-pcb-pcb-manufacture-step-by-step/">Steph by Step process of PCB Manufacturing</a> <br>
+    <a href="http://www.omnicircuitboards.com/blog/bid/289774/Understanding-PCB-Manufacturing-Multilayer-Assembly">Understanding PCB Manufacturing: Multilayer Assembly</a> <br>
+    <a href="http://www.omnicircuitboards.com/blog/bid/254057/Printed-Circuit-Board-Design-Techniques-and-Best-Practices">Printed Circuit Board Design Techniques and Best Practices</a> <br>
+    
+    
+<p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+
+<p><a href="http://imgur.com/a/bu1Au">http://imgur.com/a/bu1Au</a></p>
+    
+    
+    </div></body>
+</html>
