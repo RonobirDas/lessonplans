@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>cpe404</title>
+<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body><div class="container"><h1 id="digital-design">Digital Design </h1>
+
+<p>First if you want to learn about computers, start here. </p>
+
+<p>Now that that’s out of the way, we can focus on things that might help for things like coursework. </p>
+
+
+
+<h2 id="computer-arithmetic">Computer Arithmetic</h2>
+
+<p>Lecture Sites: <br>
+<a href="http://www.ecs.umass.edu/ece/koren/arith/slides/">Koren’s Lectures ECE 666 at UMASS</a> <br>
+<a href="https://web.stanford.edu/class/ee486/">Standford EE 486</a></p>
+
+<p>Books: <br>
+<a href="http://www.ece.ucsb.edu/~parhami/text_comp_arit.htm">Parhami’s book on Comp Arithmetic, has great lecture slides</a> <br>
+<a href="http://www.amazon.com/Handbook-Floating-Point-Arithmetic-Jean-Michel-Muller/dp/081764704X/ref=sr_1_1?ie=UTF8&amp;qid=1429519333&amp;sr=8-1&amp;keywords=floating%20point">Handbook on floating point</a> <br>
+<a href="http://www.amazon.com/Computer-Arithmetic-Algorithms-Second-Israel/dp/1568811608/ref=sr_1_2?ie=UTF8&amp;qid=1429519349&amp;sr=8-2&amp;keywords=computer%20arithmetic">Computer Arithmetic Algorithms, Second Edition</a> <br>
+<a href="http://www.amazon.com/Computer-Arithmetic-Algorithms-Hardware-Implementations/dp/364218314X/ref=sr_1_5?ie=UTF8&amp;qid=1429519349&amp;sr=8-5&amp;keywords=computer%20arithmetic">Computer Arithmetic: Algorithms and Hardware Implementations </a> <br>
+<a href="http://www.amazon.com/Implementation-Arithmetic-Functions-Electrical-Engineering/dp/9400729863/ref=sr_1_1?ie=UTF8&amp;qid=1429519381&amp;sr=8-1&amp;keywords=computer%20arithmetic%20fpga">Guide to FPGA Implementation of Arithmetic Functions (Lecture Notes in Electrical Engineering) </a></p>
+
+
+
+<h2 id="system-verilog">System Verilog </h2>
+
+<p><a href="http://www.amazon.com/UVM-Primer-Step---Step-Introduction/dp/0974164933/ref=sr_1_5?ie=UTF8&amp;qid=1429519601&amp;sr=8-5&amp;keywords=system%20verilog">UVM Primer</a> - Great easy to read book <br>
+<a href="http://www.amazon.com/SystemVerilog-Verification-Learning-Testbench-Language/dp/1461407141/ref=sr_1_1?ie=UTF8&amp;qid=1429519601&amp;sr=8-1&amp;keywords=system%20verilog">SystemVerilog for Verification: A Guide to Learning the Testbench Language Features </a> - <strong>THE RECOMMENDED BOOK from CHRIS SPEAR. MUST READ.</strong>  <br>
+<a href="http://www.amazon.com/SystemVerilog-Design-Second-Hardware-Modeling/dp/0387333991/ref=sr_1_2?ie=UTF8&amp;qid=1429519601&amp;sr=8-2&amp;keywords=system%20verilog">SystemVerilog for Design Second Edition: A Guide to Using SystemVerilog for Hardware Design and Modeling</a> - FROM STUART SUTHERLAND, one of the foremost experts in logic design.  <br>
+<a href="http://www.amazon.com/SystemVerilog-Assertions-Functional-Coverage-Applications/dp/1461473233/ref=sr_1_1?ie=UTF8&amp;qid=1429519636&amp;sr=8-1&amp;keywords=system%20verilog%20assertions">SystemVerilog Assertions and Functional Coverage: Guide to Language, Methodology and Applications</a> - Focuses on code coverage for testing in DUV systems. </p>
+
+
+
+<h2 id="computer-architecture">Computer Architecture</h2>
+
+<p>If you’re attempting anything from architecture, such as SuperScalar or Branch Prediction, and the only thing you’ve read is a basic textbook, don’t even think of starting the design without the theory. Read the intermediate books from the first line that’s a link here. Read the book Computer Organization and Design, don’t even think about architecture until then. </p>
+
+<p><strong>ILP</strong> <br>
+Chapter 4 in Computer Organization and Design, Chapter 3 in Computer Architecture A Quantative Approach. Literally the entire focus of <a href="http://www.amazon.com/Modern-Processor-Design-Fundamentals-Superscalar/dp/1478607831/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1429520077&amp;sr=1-1&amp;keywords=modern+processor+design+fundamentals+of+superscalar+processors">http://www.amazon.com/Modern-Processor-Design-Fundamentals-Superscalar/dp/1478607831/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1429520077&amp;sr=1-1&amp;keywords=modern+processor+design+fundamentals+of+superscalar+processors</a></p>
+
+<p><strong>Branch Prediction</strong> <br>
+In Chapter 3 of AQA. Many papers to read.  <br>
+Here’s a short list: <br>
+<a href="http://cva.stanford.edu/classes/ee482a/scribed/lect03.pdf">http://cva.stanford.edu/classes/ee482a/scribed/lect03.pdf</a> - Read this one first.  <br>
+<a href="https://web.eecs.umich.edu/~tnm/papers/yags.pdf">https://web.eecs.umich.edu/~tnm/papers/yags.pdf</a> <br>
+<a href="http://www.eecg.toronto.edu/~moshovos/ACA05/read/isca-92.2-level-adaptive.pdf">http://www.eecg.toronto.edu/~moshovos/ACA05/read/isca-92.2-level-adaptive.pdf</a></p>
+
+<p><strong>Multicore</strong> <br>
+Ok whoever is implementing this, good luck, seriously. CMP is one of the hardest implementation things to do. It is near head ache inducing to get it to work, more so than any other computer architecture implementation, save for purely parallel design, or Multithreading. Good luck.  <br>
+Chapter 5 of Computer Architecture A Quantitative Approach.  <br>
+<a href="http://www.amazon.com/Multi-Core-Hierarchies-Synthesis-Lectures-Architecture/dp/1598297538/ref=sr_1_13?s=books&amp;ie=UTF8&amp;qid=1429519854&amp;sr=1-13&amp;keywords=multicore">http://www.amazon.com/Multi-Core-Hierarchies-Synthesis-Lectures-Architecture/dp/1598297538/ref=sr_1_13?s=books&amp;ie=UTF8&amp;qid=1429519854&amp;sr=1-13&amp;keywords=multicore</a> <br>
+<a href="http://www.amazon.com/Consistency-Coherence-Synthesis-Lectures-Architecture/dp/1608455645/ref=pd_bxgy_b_text_y">http://www.amazon.com/Consistency-Coherence-Synthesis-Lectures-Architecture/dp/1608455645/ref=pd_bxgy_b_text_y</a> <br>
+<a href="http://www.amazon.com/Chip-Multiprocessor-Architecture-Techniques-Throughput/dp/159829122X/ref=pd_sim_b_7?ie=UTF8&amp;refRID=1Q89Q4TW4ZN3RE69YBNQ">http://www.amazon.com/Chip-Multiprocessor-Architecture-Techniques-Throughput/dp/159829122X/ref=pd_sim_b_7?ie=UTF8&amp;refRID=1Q89Q4TW4ZN3RE69YBNQ</a></p>
+
+<p>Look at <a href="http://www.morganclaypool.com/toc/cac/1/1">http://www.morganclaypool.com/toc/cac/1/1</a>, listed entirely below for relevant advanced material. </p>
+
+<blockquote>
+  <p>Power-Efficient Computer Architectures: Recent Advances Magnus <br>
+  Själander , Margaret Martonosi , Stefanos Kaxiras December 2014 <br>
+  Abstract | PDF (1249 KB) | PDF Plus (1255 KB) | Supplementary Material <br>
+  FPGA-Accelerated Simulation of Computer Systems Hari Angepat , Derek <br>
+  Chiou , Eric S. Chung , James C. Hoe August 2014 Abstract | PDF (3951 <br>
+  KB) | PDF Plus (3447 KB) | Supplementary Material  A Primer on <br>
+  Hardware Prefetching Babak Falsafi, Thomas F. Wenisch May 2014 <br>
+  Abstract | PDF (1055 KB) | PDF Plus (1056 KB) | Supplementary Material <br>
+  On-Chip Photonic Interconnects: A Computer Architect’s Perspective <br>
+  Christopher J. Nitta, Matthew K. Farrens, Venkatesh Akella October <br>
+  2013 Abstract | PDF (4786 KB) | PDF Plus (4341 KB) | Supplementary <br>
+  Material  Optimization and Mathematical Modeling in Computer <br>
+  Architecture Tony Nowatzki, Michael Ferris, Karthikeyan Sankaralingam, <br>
+  Cristian Estan, Nilay Vaish, David Wood September 2013 Abstract | PDF <br>
+  (6049 KB) | PDF Plus (4988 KB) | Supplementary Material  Security <br>
+  Basics for Computer Architects Ruby B. Lee September 2013 Abstract | <br>
+  PDF (5683 KB) | PDF Plus (3487 KB) | Supplementary Material  The <br>
+  Datacenter as a Computer: An Introduction to the Design of <br>
+  Warehouse-Scale Machines, Second edition Luiz André Barroso, Jimmy <br>
+  Clidaras, Urs Hölzle July 2013 Abstract | PDF (11607 KB) | PDF Plus <br>
+  (5685 KB)  Shared-Memory Synchronization Michael L. Scott June 2013 <br>
+  Abstract | PDF (1118 KB) | PDF Plus (1120 KB) | Supplementary Material <br>
+  Resilient Architecture Design for Voltage Variation Vijay Janapa Reddi <br>
+  , Meeta Sharma Gupta June 2013 Abstract | PDF (5360 KB) | PDF Plus <br>
+  (4977 KB) | Supplementary Material  Multithreading Architecture Mario <br>
+  Nemirovsky, Dean M. Tullsen January 2013 Abstract | PDF (1005 KB) | <br>
+  PDF Plus (1153 KB)  Performance Analysis and Tuning for General <br>
+  Purpose Graphics Processing Units (GPGPU) Hyesoon Kim, Richard Vuduc, <br>
+  Sara Baghsorkhi, Jee Choi, Wen-mei Hwu November 2012 Abstract | PDF <br>
+  (14102 KB) | PDF Plus (15290 KB)  Automatic Parallelization: An <br>
+  Overview of Fundamental Compiler Techniques Samuel P. Midkiff January <br>
+  2012 Abstract | PDF (2684 KB) | PDF Plus (2216 KB)  Phase Change <br>
+  Memory: From Devices to Systems Moinuddin K. Qureshi, Sudhanva <br>
+  Gurumurthi, Bipin Rajendran November 2011 Abstract | PDF (2014 KB) | <br>
+  PDF Plus (1949 KB)  Multi-Core Cache Hierarchies Rajeev <br>
+  Balasubramonian, Norman P. Jouppi, Naveen Muralimanohar November 2011 <br>
+  Abstract | PDF (1562 KB) | PDF Plus (1850 KB)  A Primer on Memory <br>
+  Consistency and Cache Coherence Daniel J. Sorin, Mark D. Hill, David <br>
+  A. Wood November 2011 Abstract | PDF (4006 KB) | PDF Plus (4007 KB) | <br>
+  Supplementary Material  Dynamic Binary Modification: Tools, <br>
+  Techniques, and Applications Kim Hazelwood March 2011 Abstract | PDF <br>
+  (1505 KB) | PDF Plus (1221 KB)  Quantum Computing for Computer <br>
+  Architects, Second Edition Tzvetan S. Metodi, Arvin I. Faruque, <br>
+  Frederic T. Chong March 2011 Abstract | PDF (2216 KB) | PDF Plus (2217 <br>
+  KB)  High Performance Datacenter Networks: Architectures, Algorithms, <br>
+  and Opportunities Dennis Abts, John Kim March 2011 Abstract | PDF <br>
+  (3388 KB) | PDF Plus (2873 KB)  Processor Microarchitecture: An <br>
+  Implementation Perspective Antonio González, Fernando Latorre, <br>
+  Grigorios Magklis December 2010 Abstract | PDF (2205 KB) | PDF Plus <br>
+  (1400 KB)  Transactional Memory, 2nd edition Tim Harris , James Larus <br>
+  , Ravi Rajwar December 2010 Abstract | PDF (1851 KB) | PDF Plus (1852 <br>
+  KB)  Computer Architecture Performance Evaluation Methods Lieven <br>
+  Eeckhout December 2010 Abstract | PDF (1669 KB) | PDF Plus (1670 KB)  <br>
+  Introduction to Reconfigurable Supercomputing Marco Lanzagorta, <br>
+  Stephen Bique, Robert Rosenberg 2009 Abstract | PDF (1169 KB) | PDF <br>
+  Plus (1170 KB)  On-Chip Networks Natalie Enright Jerger, Li-Shiuan Peh <br>
+  2009 Abstract | PDF (2472 KB) | PDF Plus (2733 KB)  The Memory System: <br>
+  You Can’t Avoid It, You Can’t Ignore It, You Can’t Fake It Bruce Jacob <br>
+  2009 Abstract | PDF (1695 KB) | PDF Plus (1406 KB)  Fault Tolerant <br>
+  Computer Architecture Daniel J. Sorin 2009 Abstract | PDF (1097 KB) | <br>
+  PDF Plus (1098 KB)  The Datacenter as a Computer: An Introduction to <br>
+  the Design of Warehouse-Scale Machines Luiz André Barroso, Urs Hölzle <br>
+  2009 Abstract | PDF (2829 KB) | PDF Plus (1325 KB)  Computer <br>
+  Architecture Techniques for Power-Efficiency Stefanos Kaxiras, <br>
+  Margaret Martonosi 2008 Abstract | PDF (5368 KB) | PDF Plus (2161 KB)  <br>
+  Chip Multiprocessor Architecture: Techniques to Improve Throughput and <br>
+  Latency Kunle Olukotun, Lance Hammond, James Laudon 2007 Abstract | <br>
+  PDF (5693 KB) | PDF Plus (2663 KB)  Transactional Memory James R. <br>
+  Larus, Ravi Rajwar 2006 Abstract | PDF (1496 KB) | PDF Plus (1496 KB)  <br>
+  Quantum Computing for Computer Architects Tzvetan S. Metodi, Frederic <br>
+  T. Chong 2006 Abstract | PDF (936 KB) | PDF Plus (949 KB)</p>
+</blockquote>
+
+
+
+<h2 id="synthesis">Synthesis</h2>
+
+<p>At this level, just use this lab book. It is fantastic to learn about Cadence and Synopsys tools.  <br>
+<a href="http://www.amazon.com/Digital-Design-Cadence-Synopsys-Tools/dp/0321547993/ref=sr_1_9?ie=UTF8&amp;qid=1429519106&amp;sr=8-9&amp;keywords=vlsi">Digital Design with Cadence and Synopsys</a></p>
+
+
+
+<h2 id="cool-stuff">Cool Stuff</h2>
+
+<p>Checkout:  <br>
+<a href="http://www.eevblog.com/">EEV Blog</a> <br>
+<a href="http://www.fpga4fun.com/">FPGA4FUN</a> <br>
+<a href="https://www.reddit.com/r/ece">ECE forum</a> <br>
+<a href="https://www.reddit.com/r/engineeringstudents">Engineering Students forum</a></p>
+
+<blockquote>
+  <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+</blockquote></div></body>
+</html>
