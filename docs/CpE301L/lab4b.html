@@ -11,6 +11,31 @@
   
   <p>These are some additional resources for this lab. The majority of this material especially the C material can be found in the share drive with the multiple textbooks on C available</p>
 
+  <p><div class="toc">
+<ul>
+<li><a href="#lab-4-part-iiiii-resources">Lab 4 Part II/III Resources</a><ul>
+<li><a href="#general-embedded-systems">General Embedded Systems</a></li>
+<li><a href="#software-education">Software Education</a></li>
+<li><a href="#embedded-systems-introduction">Embedded Systems Introduction</a></li>
+<li><a href="#version-control">Version Control</a></li>
+<li><a href="#bar-group-resources">Bar Group resources</a></li>
+<li><a href="#agile">Agile</a></li>
+<li><a href="#c-basics">C Basics</a></li>
+<li><a href="#object-oriented-c-and-design-patterns">Object Oriented C and Design Patterns</a></li>
+<li><a href="#numerical-analysis">Numerical Analysis</a></li>
+<li><a href="#finite-state-machine">Finite State Machine</a></li>
+<li><a href="#schedulingmemory-management">Scheduling/Memory Management</a></li>
+<li><a href="#c-testing-frameworks">C Testing Frameworks</a></li>
+<li><a href="#documentation-coding-standards">Documentation &amp; Coding Standards</a></li>
+<li><a href="#compiler-code-optimizations">Compiler &amp; Code Optimizations</a></li>
+<li><a href="#whats-ahead">What’s Ahead? </a></li>
+</ul>
+</li>
+</ul>
+</div>
+</p>
+  
+  
 <h2 id="general-embedded-systems">General Embedded Systems</h2>
 
 <p><a href="http://cms.edn.com/ContentEETimes/Documents/Embedded.com/MarketStudy/2014-embedded-market-study-then-now-whats-next.pdf">Embedded Market Study</a> <br>
@@ -123,6 +148,24 @@
 
   </ul>
   
+  <h2 id="strings">Strings</h2>
+
+<p><a href="https://en.wikipedia.org/wiki/Regular_expression">What is Regular Expression</a> <br>
+<a href="http://publications.gbdirect.co.uk/c_book/chapter10/pattern_matching_example.html">Regex</a> <br>
+<a href=""></a></p>
+
+
+<h2 id="datastructures-algorithms">Datastructures &amp; Algorithms</h2>
+
+<p><a href="https://faculty.washington.edu/jstraub/dsa/Master_2_7a.pdf">DSA I</a> <br>
+<a href="https://users.cs.fiu.edu/~weiss/dsaa_c2e/files.html">DSA II</a> <br>
+<a href="http://www.cprogramming.com/algorithms-and-data-structures.html">DSA III</a> <br>
+<a href="https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm">DSA IV</a> <br>
+<a href="http://www.avrfreaks.net/forum/recursive-function-avr-programming">DSA V</a> <br>
+<a href="http://inst.eecs.berkeley.edu/~selfpace/studyguide/9C.sg/Output/ADTs.in.C.html">DSA VI</a> <br>
+<a href="https://en.wikipedia.org/wiki/Circular_buffer">DSA VII</a> <br>
+<a href="http://www.avrfreaks.net/forum/soft-c-avrgcc-monitoring-stack-usage?page=all">Memory Management</a></p>
+  
   <h2 id="numerical-analysis">Numerical Analysis</h2>
 
 <ul>
@@ -133,7 +176,31 @@
 <li><a href="https://en.wikipedia.org/wiki/Numerical_integration">Numerical Integration</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Numerical_analysis">Field of Numerical Analysis</a></li>
 <li><a href="https://en.wikipedia.org/wiki/List_of_numerical_analysis_topics">Topics in Numerical Analysis</a></li>
+<li><a href="https://geeklikemetoo.blogspot.com/2016/10/fixed-point-math-with-avr-gcc.html">AVR Fixed Point Math</a></li>
+<li><a href="http://www.eetimes.com/author.asp?doc_id=1287491">GCC Fixed Point Math</a></li>
+<li><a href="https://sestevenson.wordpress.com/category/fixed-point/">Fixed Point Math</a></li>
+<li><a href="http://www-inst.eecs.berkeley.edu/~cs61c/sp06/handout/fixedpt.html">Fixed Point Math Representation</a></li>
+<li><a href="http://www.embedded.com/electronics-blogs/break-points/4440492/Fixed-point-math">Fixed Point Math Theory</a></li>
 </ul>
+
+
+
+<h2 id="matrix-math">Matrix Math</h2>
+
+<p><a href="http://www.programmingsimplified.com/c-program-multiply-matrices">AVR Matrix Mul</a> <br>
+<a href="https://web.stanford.edu/~wfsharpe/mia/mat/mia_mat2.htm">Matrix Operations Explained</a> <br>
+<a href="https://en.wikipedia.org/wiki/Gaussian_elimination">RREF</a></p>
+
+<h2 id="dynamic-memory-management">Dynamic Memory Management</h2>
+
+<p><a href="http://www.avr-tutorials.com/general/avr-memory-map">AVR Memory Map</a> <br>
+<a href="http://www.nongnu.org/avr-libc/user-manual/malloc.html">AVRGCC Malloc Useage</a> <br>
+<a href="https://github.com/MarlinFirmware/Marlin/issues/2367">Dangers of dynamic memory management</a> <br>
+<a href="https://www.tutorialspoint.com/cprogramming/c_pointers.htm">More on Pointers</a> <br>
+<a href="http://nrqm.ca/mechatronics-lab-guide/lab-guide-embedded-memory-management/">Important Note on Dynamic Memory management</a></p>
+
+<p>Try not to leave memory management of pointers and arrays or objects in general to the GCC compiler. While it will try its best, it is better to work with hard coded limits, and monitor memory usage. Make a memory management function that monitors usage, statically creates memory blocks at runtime and cleans after an object is no longer in use freeing up that space. </p>
+
 
 <h2 id="object-oriented-c-and-design-patterns">Object Oriented C and Design Patterns</h2>
 
@@ -243,6 +310,15 @@
 - <a href="https://barrgroup.com/Embedded-Systems/How-To/Embedded-Software-Performance">How to Make Embedded Software Smaller and Faster</a> <br>
 - <a href="https://barrgroup.com/Embedded-Systems/How-To/Low-Power-Management">Power Consumption Reduction</a> <br>
 - <a href="https://barrgroup.com/Embedded-Systems/How-To/C-Fixed-Width-Integers-C99">C99 Fixed Width Integers</a></p>
+
+
+<h2 id="serial-communications-protocols">Serial Communications Protocols</h2>
+
+<p><a href="http://www.atmel.com/Images/doc1472.pdf">Xmodem 1</a> <br>
+<a href="http://www.avrfreaks.net/forum/anyone-use-xmodem-teraterm">XMODEM 2</a> <br>
+<a href="http://www.avrfreaks.net/forum/file-transfer-pc-atmega32-using-serial-communication-ref-avr303">XMODEM 3</a> <br>
+<a href="https://stackoverflow.com/questions/11619664/sending-files-over-serial-port">XMODEM 4</a> <br>
+<a href="https://www.menie.org/georges/embedded/#xmodem">XMODEM 5</a></p>
 
 
 <h2 id="whats-ahead">What’s Ahead? </h2>
