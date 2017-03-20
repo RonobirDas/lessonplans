@@ -33,7 +33,7 @@
 </li>
 </ul>
 </div>
-</p>
+  </p>
   
   
 <h2 id="general-embedded-systems">General Embedded Systems</h2>
@@ -46,6 +46,10 @@
 <a href="https://barrgroup.com/Embedded-Systems/How-To/Medical-Device-Consumables">Medical Devices</a> <br>
 <a href="https://barrgroup.com/Embedded-Systems/How-To/Safe-Motion-Control-Firmware-Framework">Safety Considerations</a></p>
 
+  <p>More General Sites <br>
+<a href="https://sites.google.com/site/qeewiki/books/avr-guide">QEE Wiki</a> <br>
+<a href="http://www.avrfreaks.net/">AVR Freaks</a></p>
+  
 <p>CpE/EE Resumes <br>
 <a href="http://mitchgu.com/resume/">Excellent Resume</a> <br>
 <a href="http://www.ieee.vt.edu/resumes/chandler_cain_resume.pdf">For those graduating next spring</a></p>
@@ -148,6 +152,19 @@
 
   </ul>
   
+  <h2 id="pointer">Points on Pointers</h2>
+
+<ul>
+<li><a href="https://www.tutorialspoint.com/cprogramming/c_pointers.htm">Pointers I <br>
+</a>
+  <li><a href="http://boredzo.org/pointers/">Pointers II
+</a>
+  </li>
+  <li><a href="http://tekslate.com/explain-different-types-pointers-c-language/">Pointers III
+</a>
+  </li>
+</ul>
+  
   <h2 id="strings">Strings</h2>
 
 <p><a href="https://en.wikipedia.org/wiki/Regular_expression">What is Regular Expression</a> <br>
@@ -195,10 +212,17 @@
 
 <p><a href="http://www.avr-tutorials.com/general/avr-memory-map">AVR Memory Map</a> <br>
 <a href="http://www.nongnu.org/avr-libc/user-manual/malloc.html">AVRGCC Malloc Useage</a> <br>
+  
+  <a href="https://arduino.stackexchange.com/questions/682/is-using-malloc-and-free-a-really-bad-idea-on-arduino">Why Malloc is bad on AtMegas</a> <br>
+  <a href="https://www.quora.com/Why-is-malloc-harmful-in-embedded-systems">Malloc bad, static good</a> <br>
+  <a href="http://thegaragelab.com/conserving-memory-on-an-avr/">AVR Memory Conservation</a> <br>
+  <a href="http://jeelabs.org/2011/05/22/atmega-memory-use/index.html">AVR Memory Conservation II</a> <br>
 <a href="https://github.com/MarlinFirmware/Marlin/issues/2367">Dangers of dynamic memory management</a> <br>
 <a href="https://www.tutorialspoint.com/cprogramming/c_pointers.htm">More on Pointers</a> <br>
+  <a href="https://mousomer.wordpress.com/2010/11/03/simple-rules-to-avoid-memory-leaks-in-c/">Simple rules to avoid Memory Leaks</a><br>
 <a href="http://nrqm.ca/mechatronics-lab-guide/lab-guide-embedded-memory-management/">Important Note on Dynamic Memory management</a></p>
 
+  
 <p>Try not to leave memory management of pointers and arrays or objects in general to the GCC compiler. While it will try its best, it is better to work with hard coded limits, and monitor memory usage. Make a memory management function that monitors usage, statically creates memory blocks at runtime and cleans after an object is no longer in use freeing up that space. </p>
 
 
